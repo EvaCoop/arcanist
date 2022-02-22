@@ -28,6 +28,11 @@ If this doesn't work, you can manually edit `.bashrc`, adding this before the en
 PATH=/<installation path>/arcanist/bin/:$PATH
 ```
 
+Install PHP
+```
+sudo apt-get install php php-curl git
+```
+
 ## Project Setup
 On your repo, if not present, create a `.arcconfig` file:
 ```bash
